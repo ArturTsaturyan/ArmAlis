@@ -1,0 +1,48 @@
+.root {
+    position: relative;
+    margin-top: 52px;
+  }
+  
+  .input {
+    border: 1px solid #F68D10;
+    padding: 12px 20px;
+    padding-left: 42px;
+    /* width: 609px; */
+    width: 100%;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .input:focus {
+    border: 1px solid #F68D10;
+  }
+  
+  .icon {
+    width: 22px;
+    height: 22px;
+    opacity: 0.3;
+    position: absolute;
+    left: 14px;
+    top: 12px;
+  }
+  
+  .clearIcon {
+    float: right;
+    width: 18px;
+    height: 18px;
+    opacity: 0.3;
+    position: absolute;
+    right: 12px;
+    top: 15px;
+    cursor: pointer;
+  }
+  
+  .clearIcon:hover {
+    opacity: 0.8;
+  }
+
+  @media (max-width:991px){
+    .root{
+      margin-top: unset !important;
+    }
+  }

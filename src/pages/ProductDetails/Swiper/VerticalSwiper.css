@@ -1,0 +1,134 @@
+.slider {
+  width: 50%;
+  color: #fff;
+}
+.slider .swiper-container1 {
+  width: 85%;
+  height: 50vh;
+}
+.slider .swiper-container2 {
+  width: 80%;
+  height: 100%;
+}
+/* .slider__flex {
+  display: flex;
+  height: 795px;
+  align-items: flex-start;
+  flex-direction: column-reverse;
+} */
+.slider__col {
+  flex-direction: row;
+  align-items: center;
+  margin-right: 0;
+  margin-top: 24px;
+  width: 100%;
+}
+/* .slider__thumbs {
+  margin: 0 16px;
+} */
+
+.details .swiper-slide{
+  width: 88% !important;
+  margin-left: 20px;
+}
+.slider__thumbs .slider__image {
+  transition: 0.25s;
+  filter: grayscale(100%);
+  opacity: 0.5;
+
+}
+.slider__thumbs .slider__image:hover {
+  opacity: 1;
+
+}
+.slider__thumbs .swiper-slide-thumb-active .slider__image {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.1);
+}
+.slider__images {
+  width: 100%;
+  /* height: 190px; */
+}
+.slider__images .slider__image img {
+  transition: 3s;
+}
+.slider__images .slider__image {
+   width: 80%;
+}
+
+.slider__image {
+  width: 90%;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.sliderImage {
+  width: 90%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.slider__image img {
+  width: 29%;
+  /* height: 190px; */
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.sliderImage img {
+  width: 90%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media only screen and (max-width: 991px) {
+  .slider .swiper-container1 {
+    height: 35vh;
+  }
+}
+@media (max-width: 768px) {
+  .slider__flex {
+    flex-direction: column-reverse;
+  }
+  .slider__images .slider__image {
+    width: 100%;
+ }
+  .slider__col {
+    flex-direction: row;
+    align-items: center;
+    margin-right: 0;
+    margin-top: 24px;
+    width: 100%;
+  }
+  .slider__images {
+    width: 100%;
+  }
+  .slider__thumbs {
+    margin: 0 16px;
+  }
+  .slider {
+    width: 90%;
+  }
+  .details .swiper-slide{
+    margin: auto;
+  }
+  .details .swiper-slide .sliderImage{
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider .swiper-container2 {
+    width: 100%;
+}
+.slider {
+  width: 100%;
+}
+.details .swiper-slide{
+  margin: auto !important;
+}
+}

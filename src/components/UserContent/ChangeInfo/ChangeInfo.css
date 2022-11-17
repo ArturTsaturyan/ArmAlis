@@ -1,0 +1,18 @@
+.changeInfo_form .input_block{
+    width: 100%;
+    margin-top: 45px;
+}
+.changeInfo_form .btn_edit_confirm{
+    margin: auto !important;
+    margin-top: 5vh !important;
+}
+
+@media(max-width:991px){
+    .change .inputs_divs{
+        flex-direction: column ;
+    } 
+    .change .inputs_divs > div{
+       width: 100%;
+    } 
+}
+

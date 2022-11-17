@@ -1,0 +1,234 @@
+.orderContent{
+    margin-top: 82px;
+    padding-top: 22px;
+    padding-bottom: 120px;
+    padding-left: 96px;
+    padding-right: 96px;
+    background: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_products{
+    /* display: flex;
+    flex-direction: column; */
+    width: 67%;
+}
+.about_products_header_title:first-child{
+    width: 50%;
+    margin-left: 30px;
+}
+.about_products_header_title:nth-child(2) .about_products_header_title__{
+    text-align: right;
+    margin-left: 110px;
+}
+.about_products_header_title:nth-child(3){
+    width: 14%;
+}
+.all_about{
+    width: 32%;
+    padding: 24px 32px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    height: fit-content;
+}
+.all_about_title_block{
+    padding-bottom: 26px;
+    border-bottom: 1px solid #BCBCBC;
+}
+
+.all_about_title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 126%;
+    color: #121212;
+}
+
+/* .all_about_discription_block{
+    margin-top: 62px;
+} */
+
+.all_about_all_price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all_price_title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 126%;
+    color: #121212;
+}
+
+.all_price{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 126%;
+    color: #F68D10;
+}
+
+.all_about_all_delevry_price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #BCBCBC ;
+}
+
+.all_delevry_price_title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 126%;
+    color: #121212;
+}
+
+.all_delevry_price{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 126%;
+    color: #F68D10;
+}
+
+.buy{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.buy button{
+    width: 100%;
+}
+
+
+.we_accept_block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.we_accept{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: #121212;
+}
+
+.we_accept_imgs{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   min-height: 40px;
+   min-width: 60px
+}
+
+.we_accept_imgs img{
+    min-height: 40px;
+    min-width: 60px
+ }
+.we_accept_imgs .we_accept_img:not(:last-child){
+    margin-right: 8px;
+}
+
+@media only screen and (max-width: 1270px){
+    .about_products {
+        width: 100%;
+    }
+    .orderContent{
+        flex-wrap: wrap;
+    }
+    .all_about{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 1024px) {
+    /* .orderContent{
+        margin-top: 30px;
+        padding-top: 22px;
+        padding-bottom: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+        flex-wrap: wrap;
+    }
+    .about_products{
+        width: 100%;
+    }
+    
+    .all_about{
+        width: 100%;
+        padding: 24px 32px;
+        display: flex;
+        text-align: center;
+    }
+    .all_about_title{
+        font-size: 18px;
+    }
+    .all_price_title{
+        font-size: 18px;
+    }
+    .all_delevry_price_title{
+        font-size: 18px;
+    }
+    .we_accept{
+        font-size: 18px;
+    }
+    .all_about_title_block{
+        border-bottom: none;
+    } */
+}
+@media (max-width: 768px) {
+    .orderContent{
+        margin-top: 30px;
+        padding-top: 22px;
+        padding-bottom: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+        flex-wrap: wrap;
+    }
+    .about_products{
+        width: 100%;
+    }
+    
+    .all_about{
+        width: 100%;
+        padding: 24px 32px;
+        display: flex;
+        text-align: center;
+    }
+    .all_about_title{
+        font-size: 16px;
+    }
+    .all_price_title{
+        font-size: 16px;
+    }
+    .all_delevry_price_title{
+        font-size: 16px;
+    }
+    .we_accept{
+        font-size: 16px;
+    }
+    .all_about_title_block{
+        border-bottom: none;
+    }
+    .product_details_block{
+        padding: 10px;
+    }
+    .about_products{
+        padding: 10px;
+    }
+}
+.orderContent_empoty{
+    display: flex;
+    justify-content: center;
+    padding: 50px 15px;
+    background: white;
+}
+.orderContent_empoty p{
+    font-size: 24px;
+}
+@media (max-width: 991px) {
+.about_products_header{
+    display: none;
+}
+}

@@ -1,0 +1,39 @@
+.moblie_menu{
+    width: 90px !important;
+    color: white;
+}
+.mobile_menu_buttons{
+display: flex;
+flex-direction: column;
+}
+.moblie_menu_2{
+    width: 90px !important;
+    color: black;
+}
+
+.mobile_menu_buttons .BaseBadge-root{
+    padding-left: 10px !important;
+}
+.mobile_menu_buttons svg{
+    padding-left: 10px !important;
+}
+.mobile_menu_buttons .BBaseBadge-badge{
+    padding-left: 10px !important;
+    left: 40px !important;
+    top: 16px !important;
+}
+@media ( max-width:768px){
+    .moblie_menu_2{
+        /* width: 60px !important; */
+        margin-left: 10px;
+    }
+    .moblie_menu_2 div:nth-child(2){
+     padding-left: unset !important;
+     padding-right: unset !important;
+    }
+}
+@media only screen and ( max-width: 480px){
+    .moblie_menu_2 .MuiDrawer-paper{
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,36 @@
+#div{
+    font-size: 50px;
+    font-weight: 900;
+    height: 500px;
+    width: 80%;
+    background-color: rgb(224, 218, 218);
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.errorImage{
+    font-size: 150px;
+}
+.errorTitle{
+    font-size: 30px;
+    color: rgb(131, 109, 109);
+}
+.errorLink{
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+}
+.errorLink:hover{
+    text-decoration: underline;
+    color: rgb(28, 28, 231);
+}
+
+@media only screen and ( max-width: 480px){
+    .errorTitle{
+        font-size: 20px;
+    }
+    .errorLink{
+        font-size: 25px;
+    }
+}

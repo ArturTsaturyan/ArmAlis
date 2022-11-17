@@ -1,0 +1,19 @@
+.about_head{
+   background-image: url(../../images/aboutBackground.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size : cover;
+}
+
+.shipmentAchievement{
+   background-image: url(../../images/achievement.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size : cover;
+}
+
+@media ( max-width:768px){
+   .achievement{
+      margin-bottom: 50px;
+   }
+ }

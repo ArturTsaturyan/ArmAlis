@@ -1,0 +1,113 @@
+.dialog_head {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#dialog2 .MuiPaper-root {
+  background: #fafafa !important;
+  border: 2px solid #f68d10 !important;
+  width: 43% !important;
+  padding: 48px 32px !important;
+  overflow: scroll !important;
+  overflow-x: hidden !important;
+}
+#dialog2 .MuiPaper-root::-webkit-scrollbar {
+  display: none !important;
+}
+.dialog_close {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  cursor: pointer;
+}
+
+.dialog_title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 73px;
+  color: #121212;
+  margin-bottom: 56px;
+  text-transform: uppercase;
+}
+
+.dialog_content_pass {
+  margin-top: 22px;
+}
+
+.dialog_label {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: #b8b8b8;
+  margin-bottom: 12px;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+}
+
+.remember_label {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: #b8b8b8;
+}
+
+.dialog_content_btn {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  margin-bottom: 32px;
+  margin-top: 48px;
+}
+
+.forget_title {
+  cursor: pointer !important;
+  font-weight: 500 !important;
+  font-size: 21px !important;
+  line-height: 130% !important;
+  color: #f68d10 !important;
+}
+
+.dialog_filds div:not(:first-child) {
+  margin-top: 22px;
+}
+
+.error {
+  color: red;
+  margin-top: 12px;
+}
+@media (max-width: 1024px) {
+  .dialog_title {
+    font-size: 18px;
+  }
+  .forget_title {
+    font-size: 18px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .dialog_title {
+    font-size: 16px;
+  }
+  .forget_title {
+    font-size: 16px !important;
+  }
+  #dialog2 .MuiPaper-root {
+    width: 90% !important;
+    padding: 15px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .dialog_title {
+    font-size: 27px;
+  }
+}

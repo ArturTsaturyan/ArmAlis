@@ -1,0 +1,120 @@
+#dialog1 .MuiPaper-root{
+    background: #FAFAFA !important;
+    border: 2px solid #F68D10 !important;
+    width: 43% !important;
+    padding: 48px 32px !important;
+    overflow: scroll !important;
+    overflow-x: hidden !important;
+}
+
+#dialog1 .MuiPaper-root::-webkit-scrollbar{
+    display: none !important;
+}
+
+.dialog_head{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dialog_close{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
+}
+
+
+.dialog_title{
+    font-family: 'Artsakh Font';
+    text-align: center;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 73px;
+    color: #121212;
+    margin-bottom: 56px;
+}
+
+
+.dialog_content_pass{
+    margin-top: 22px;
+}
+
+.dialog_label{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: #B8B8B8;
+    
+    margin-bottom: 12px;
+}
+
+.remember{
+    display: flex;
+    align-items: center;
+}
+
+.remember_label{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: #B8B8B8;
+}
+
+
+
+.dialog_content_btn{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn{
+    margin-bottom: 32px;
+    margin-top: 48px;
+}
+
+.forget_title{
+    cursor: pointer !important;
+    font-weight: 500 !important;
+    font-size: 21px !important;
+    line-height: 130% !important;
+   color: #F68D10 !important;
+}
+
+.dialog_filds div:not(:first-child){
+    margin-top: 22px;
+}
+
+.error{
+    color: red;
+    margin-top: 12px;
+}
+
+.css-i4bv87-MuiSvgIcon-root{
+    fill: #F68D10 !important;
+}
+
+@media (max-width: 1024px) {
+    .dialog_title{
+        font-size: 18px;
+    }
+    .forget_title{
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .dialog_title{
+        font-size: 16px;
+    }
+    .forget_title{
+        font-size: 16px !important;
+    }
+    #dialog1 .MuiPaper-root{
+        width: 90% !important;
+        padding: 15px !important;
+    }
+}

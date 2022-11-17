@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a6e50ae5.css",
+    "main.js": "/static/js/main.3c8de16c.js",
+    "static/media/aboutBackground.png": "/static/media/aboutBackground.fb1f1e57db06a2e87ee2.png",
+    "static/media/ContactsBackground.png": "/static/media/ContactsBackground.1f19ba29743a0f1592e5.png",
+    "static/media/Email.svg": "/static/media/Email.dc4ecab9fb6b3895a8adfa5ddac68dc0.svg",
+    "static/media/achievement.png": "/static/media/achievement.a314e08c0148c32d6b98.png",
+    "static/media/aboutImg.png": "/static/media/aboutImg.f7d7994eb2dd37c48ee1.png",
+    "static/media/Cart_Icon.svg": "/static/media/Cart_Icon.f6e8593700645a73f3ca8d8baf666485.svg",
+    "static/media/SectionHead.png": "/static/media/SectionHead.f884c0597dcc8c5c0a7f.png",
+    "static/media/seemorearrow.svg": "/static/media/seemorearrow.0ffeb2c93e866cd3152b749b4a3e42cb.svg",
+    "static/media/closeIcon.svg": "/static/media/closeIcon.dc9e5ec392e17c3e0dbafb33069c28d4.svg",
+    "static/media/Error.png": "/static/media/Error.4b79aa72080adffec324.png",
+    "static/media/emptyCardContent.png": "/static/media/emptyCardContent.a7391307d8c59f11be4c.png",
+    "static/media/LogoOrange.svg": "/static/media/LogoOrange.13e13af62497e53c20da02aca9a321c2.svg",
+    "static/media/Logo.svg": "/static/media/Logo.a85ab7e037e43f937ad2b059bd66e814.svg",
+    "static/media/Artsakh-Font.ttf": "/static/media/Artsakh-Font.a885c00c1792e3379083.ttf",
+    "static/media/car.svg": "/static/media/car.c2a4d3b030bc88b5b438cb8c194a8d11.svg",
+    "static/media/carChec.svg": "/static/media/carChec.2782383ba40d2f3b7dd03368f83244c2.svg",
+    "static/media/userIcon.svg": "/static/media/userIcon.fcab9c38738e053c6313ec514e4d17b1.svg",
+    "static/media/unShowpass.svg": "/static/media/unShowpass.788f379e353ee1da1eae35b5969d55d3.svg",
+    "static/media/RemoveIcon.svg": "/static/media/RemoveIcon.65c0f90a3e4d6c6a8b29b712907eedb7.svg",
+    "static/media/userinfoCard.svg": "/static/media/userinfoCard.2b6afaab48abf50285e4b34c3b9fd230.svg",
+    "static/media/instagram.svg": "/static/media/instagram.b60b443ff96bf2aa0ec76ce71cbf5a75.svg",
+    "static/media/Person.svg": "/static/media/Person.e7388035e64f6d45a35ed7e786b1d682.svg",
+    "static/media/Phone.svg": "/static/media/Phone.8a02d84591e79fa60ba723dedc6523f2.svg",
+    "static/media/LogOut.svg": "/static/media/LogOut.55cf24f0a8c3584b75277d4e8baade7f.svg",
+    "static/media/ShowPass.svg": "/static/media/ShowPass.f0086e704693f284d18101909ea3082a.svg",
+    "static/media/facebook.svg": "/static/media/facebook.2d6f2ac892afb4fcc168715b47d0ecfd.svg",
+    "index.html": "/index.html",
+    "static/media/arrowBack.svg": "/static/media/arrowBack.5cdf903a3dc237f563aa6101ae99c29f.svg",
+    "static/media/OrangeArrow.svg": "/static/media/OrangeArrow.c58ff2ed101623e0a55ae92c6ba21d3c.svg",
+    "main.a6e50ae5.css.map": "/static/css/main.a6e50ae5.css.map",
+    "main.3c8de16c.js.map": "/static/js/main.3c8de16c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6e50ae5.css",
+    "static/js/main.3c8de16c.js"
+  ]
+}

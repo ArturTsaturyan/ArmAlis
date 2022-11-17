@@ -1,0 +1,122 @@
+.userContent{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.userContent_body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.users_info{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 32px rgba(156, 156, 156, 0.18);
+    border-radius: 12px;
+    width: 28%;
+    height: fit-content;
+}
+.users_info a:hover path{
+    fill: #F68D10
+}
+.users_info button:hover path{
+    stroke: #F68D10
+}
+.users_info {
+    border-bottom: 0.5px solid #B8B8B8;
+}
+
+.user_details_info{
+    width: 70%;
+    padding: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 32px rgba(156, 156, 156, 0.18);
+    border-radius: 12px;
+}
+
+.user_details_orders{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.userIconBig{
+    text-align: center;
+}
+.userIconBig{
+    text-align: center;
+}
+.userIconBig img{
+    text-align: center;
+}
+
+.changeInfo_form{
+   padding: 50px 0;
+   border-bottom: 0.5px solid #B8B8B8;
+}
+
+.btn_edit_confirm{
+    color: #27272C !important;
+    border-radius: 50px !important;
+    text-transform: unset !important;
+    font-size: 16px !important;
+    background: #FFFFFF !important;
+    white-space: nowrap !important;
+    min-width: 120px !important;
+    font-weight: 600 !important;
+    padding: 12px 46px !important;
+    margin-top: 16px !important;
+    margin-left: auto !important;
+}
+
+.users_info a:nth-child(3) .users_info_item{
+    border: none;
+}
+
+@media(max-width:1024px){
+    .users_info{
+        padding-left: 0px;
+        padding-right: 15px;
+        width: 35%;
+    } 
+    .userContent{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .user_details_info{
+        margin-left: 2%;
+    }
+    
+}
+
+@media(max-width:768px){
+    .users_info{
+        padding-left: 32px;
+        padding-right: 32px;
+        width: 100%;
+    }
+    .user_details_orders{
+        width: 100%;
+    }
+    .userContent_body{
+        flex-wrap: wrap;
+    }
+    .user_details_info{
+        width: 100%;
+        padding: 5px;
+        margin-top: 20px;
+    }
+    .userIconBig img{
+        width: 50px;
+        height: 50px;
+    }
+    .userContent{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}

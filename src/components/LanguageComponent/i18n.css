@@ -1,0 +1,40 @@
+.language{
+ margin-left: 20px;
+ font-size: 20px;
+}
+.language .MuiOutlinedInput-root{
+    background: none !important;
+    box-shadow: 0px 0px 0px !important;
+}
+.language fieldset{
+    border: 0 !important;
+}
+.LinkActive{
+    font-weight: 600;
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    color: #F68D10 !important;
+    background: none;
+    cursor: pointer;
+}
+.Link{
+    font-weight: 600;
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    color: black !important;
+    background: none;
+    cursor: pointer;
+}
+
+/* .css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+} */
+@media only screen and (max-width: 1386px) {
+    .language{
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 990px) {
+    .language{
+        display: none;
+    }
+}

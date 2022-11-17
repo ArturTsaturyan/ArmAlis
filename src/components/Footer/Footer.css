@@ -1,0 +1,397 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_row {
+  width: 100%;
+  height: 2px;
+  border: 0.5px solid #b8b8b8;
+  color: #b8b8b8;
+  margin-bottom: 72px;
+}
+.footer_container {
+  padding-left: 96px;
+  padding-right: 422px;
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+.footer_content {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+.footer_info {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  /* padding-right: 95px; */
+}
+.footer_assortment,
+.services_paymont {
+  width: 40%;
+}
+.footer_contacts {
+  width: 60%;
+  padding-left: 22px;
+}
+.info_title {
+  font-family: Artsakh font;
+  font-weight: 800;
+  font-size: 56px;
+  cursor: pointer;
+  line-height: 130%;
+  color: #f68d10 !important;
+}
+
+.info_subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  color: #1d1d1d;
+  width: 80%;
+}
+.social {
+  display: flex;
+  margin-top: 32px;
+}
+.social .social_icons:not(:last-child) {
+  margin-right: 14px;
+}
+
+.footer_small_row {
+  margin-top: 67px;
+  margin-right: 60px;
+  height: 100px;
+  border: 0.5px solid #b8b8b8;
+}
+.footer_small_rows {
+  display: flex;
+  flex-direction: column;
+}
+.footer_small_rows .footer_small_row:not(:last-child) {
+  margin-bottom: 115px;
+}
+.footerDiv {
+  width: 49.9%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.assortment_title {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 190%;
+  color: #121212;
+  margin-bottom: 24px;
+}
+.assortment_items li:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.assortment_items li {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 126%;
+  color: #121212;
+}
+
+.services_title {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 190%;
+  color: #121212;
+  margin-bottom: 24px;
+}
+
+.services_items li:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.services_items li {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 126%;
+  color: #121212;
+}
+
+.paymont_title {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 190%;
+  color: #121212;
+  margin-bottom: 24px;
+  margin-top: 72px;
+}
+
+.paymont_items li:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.paymont_items li {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 126%;
+  color: #121212;
+}
+
+.contacts_title {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 190%;
+  color: #121212;
+  margin-bottom: 24px;
+}
+
+.contacts_body {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone_contact,
+.email_contact {
+  display: flex;
+  /* align-items: center; */
+}
+.phone_contact *:not(:last-child) {
+  margin-right: 12px;
+}
+
+.phone_number,
+.email_number {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 126%;
+  color: #121212;
+}
+.email_number {
+  width: 0%;
+  margin-left: 10px;
+}
+
+.contacts_body div:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.email_contact svg,
+.phone_contact svg {
+  max-width: unset;
+}
+
+.fff {
+  /* padding-top: 72px;
+  padding-bottom: 72px;
+  padding-left: 96px; */
+  padding: 70px;
+  border-top: 0.5px solid #b8b8b8;
+}
+/* .footer_contacts,
+.services_paymont {
+  flex: 50%;
+} */
+@media (max-width: 1200px) {
+  .footer_content {
+    flex-wrap: wrap;
+  }
+  .email_number {
+    font-size: 18px;
+  }
+  .paymont_items li {
+    font-size: 18px;
+  }
+
+  .contacts_title {
+    font-size: 18px;
+  }
+  .phone_number {
+    font-size: 18px;
+  }
+  .services_items li {
+    font-size: 18px;
+  }
+
+  .paymont_title {
+    font-size: 18px;
+  }
+  .assortment_items li {
+    font-size: 18px;
+  }
+
+  .services_title {
+    font-size: 18px;
+  }
+  .info_title {
+    font-size: 42px;
+  }
+
+  .info_subtitle {
+    font-size: 18px;
+  }
+  .assortment_title {
+    font-size: 18px;
+  }
+}
+.footerItems {
+  width: 10%;
+}
+@media only screen and (max-width: 920px) and (min-width: 850px) {
+  .footerDiv {
+    width: 45%;
+  }
+  .footer_contacts {
+    margin-left: 30px;
+  }
+  .footer_assortment, .services_paymont {
+    width: 50%;
+}
+}
+@media only screen and (max-width: 849px) and (min-width: 768px) {
+  .footer_assortment, .services_paymont {
+    width: 44%;
+}
+.footerDiv {
+  width: 41.9%;
+}
+.footer_contacts {
+  padding-left: 67px;
+}
+}
+
+@media (max-width: 768px) {
+  /* .footer_content {
+    flex-wrap: wrap;
+  } */
+  .email_number,
+  .paymont_items li {
+    font-size: 16px;
+  }
+
+  .contacts_title {
+    font-size: 16px;
+  }
+  .phone_number {
+    font-size: 16px;
+  }
+  .services_items li {
+    font-size: 16px;
+  }
+
+  .paymont_title {
+    font-size: 16px;
+  }
+  .assortment_items li {
+    font-size: 16px;
+  }
+
+  .services_title {
+    font-size: 16px;
+  }
+  .info_title {
+    font-size: 38px;
+  }
+
+  .info_subtitle {
+    font-size: 16px;
+  }
+  .assortment_title {
+    font-size: 16px;
+  }
+  .footer_small_row {
+    display: none;
+  }
+  /* .footer_content{
+    flex-direction: column;
+  } */
+  .footerDiv:first-child {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .footerDiv:nth-child(2) {
+    width: 100%;
+    flex-direction: row-reverse;
+  }
+  .footer_contacts {
+    padding-left: unset;
+    margin-top: 0px;
+  }
+  .assortment_items li:not(:last-child) {
+    margin-bottom: 5px;
+  }
+
+  .fff {
+    padding: 20px;
+  }
+  .paymont_title {
+    margin-top: 0;
+  }
+  .paymont {
+    margin-left: 16px;
+    width: 22%;
+  }
+  .footerBotttom {
+    display: flex !important;
+    /* width: 100%; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between !important; */
+  }
+  .services_paymont {
+    /* display: flex;
+  justify-content: space-between;
+  width: 100%; */
+    float: right;
+  }
+
+  /* .footer_contacts,.services_paymont{
+  flex: 100%;
+} */
+  .footer_assortment {
+    width: 22%;
+  }
+  /* .footer_content{
+  padding: 20px;
+} */
+  .footerDiv {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .footer_assortment,
+  .services_paymont {
+    width: 22%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .email_contact a {
+    font-size: 15px;
+    margin-left: 10px;
+    line-height: 10px;
+  }
+  .phone_number {
+    font-size: 15px;
+  }
+  .services_items li,
+  .paymont_items li {
+    line-height: 10px;
+  }
+  .footerDiv {
+    flex-wrap: wrap;
+    margin-right: 20%;
+    margin-left: 3%;
+  }
+  .info_title {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .footer_info,
+  .footer_assortment,
+  .services_paymont,
+  .footer_contacts {
+    width: 100%;
+  }
+  .footer_contacts {
+    margin-top: 4vh;
+  }
+  .footer_content {
+    padding-left: 40px;
+  }
+}

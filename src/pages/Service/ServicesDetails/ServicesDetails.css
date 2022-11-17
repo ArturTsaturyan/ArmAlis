@@ -1,0 +1,27 @@
+.slider__thumbs_services .slider__image {
+  transition: 0.25s;
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
+.slider__thumbs_services .slider__image:hover {
+  opacity: 1;
+}
+.slider__thumbs_services .swiper-slide-thumb-active .slider__image {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.1);
+}
+.slider__thumbs_services .swiper-container1 {
+  height: 30vh !important;
+}
+.detailsTitlePrice{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .slider__thumbs_services {
+    margin: 0 16px;
+  }
+}

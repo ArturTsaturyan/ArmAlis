@@ -1,0 +1,52 @@
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  padding: 82px 96px 0px 96px
+} 
+
+.similarTitle {
+  font-family: 'Artsakh Font';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 86px;
+  color: #121212;
+  text-transform: uppercase;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.similarProduct {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 72px;
+  padding: 0px 96px 82px 96px;
+  gap: 16px;
+}
+.btn_see_more{
+  margin-bottom: 10px !important;
+}
+.btnWrapper {
+  display: flex;
+  justify-content: center;
+}
+.btnWrapper:hover > button{
+  box-shadow: 0px 2px 4px -1pxrgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+@media ( max-width:768px){
+  .details {
+    flex-wrap: wrap;
+    padding: 40px 0px 0px 0px;
+    text-align: center;
+  } 
+  .similarTitle {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  .similarProduct {
+    margin-top: 20px;
+    padding: 0px 30px 82px 30px;
+  }
+  
+}

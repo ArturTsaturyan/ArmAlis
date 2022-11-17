@@ -1,0 +1,25 @@
+.languageMobile{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+.languageM{
+ display: flex;
+ justify-content: space-around;
+}
+
+.LinkActiveMobile{
+    font-weight: 600;
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    color: #F68D10 !important;
+    background: none;
+}
+.LinkMobile{
+    font-weight: 600;
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    color: black !important;
+    background: none;
+}
+

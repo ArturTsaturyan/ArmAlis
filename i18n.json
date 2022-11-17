@@ -1,0 +1,7 @@
+{
+    "locales": ["ՀԱՅ","РУС","ENG"],
+    "defaultLocale": "ՀԱՅ",
+    "pages":{
+        "*": ["common"]
+    }
+}

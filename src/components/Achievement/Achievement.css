@@ -1,0 +1,36 @@
+
+.achievement_text_block{
+  padding: 228px 264px;
+  margin-bottom: 120px;
+}
+
+.achievement_text{
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 130%;
+    text-align: center;   
+    color: #FFFFFF;
+}
+
+@media ( max-width:1024px){
+  .achievement_text_block{
+    padding: 100px 100px;
+    margin-bottom: 20px;
+  }
+  .achievement_text{
+    font-size: 28px;
+  }
+}
+
+@media ( max-width:768px){
+  .achievement_text_block{
+    padding: 60px 70px;
+    margin-bottom: 0px;
+  }
+  .achievement_text{
+    font-size: 16px;
+  }
+}
+
+
+

@@ -1,0 +1,17 @@
+.SearchInputMobile {
+  display: flex;
+  margin-left: 10px;
+}
+.searchIconMobile {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.searchInputMobile {
+  width: 80%;
+  outline: none;
+  background: none;
+}
+

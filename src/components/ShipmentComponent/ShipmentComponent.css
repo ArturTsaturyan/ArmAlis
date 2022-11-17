@@ -1,0 +1,11 @@
+.shipment_content_text{
+    text-align: justify;
+}
+.shipmentImage{
+    width: 98%;
+    border-radius: 2%;
+}
+.shipment{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}

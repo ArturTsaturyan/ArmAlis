@@ -1,0 +1,19 @@
+.printing_head{
+    background-image: url(../../images/printing.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size : cover;
+}
+
+.printingAchievement{
+    background-image: url(../../images/printingf.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size : 100% 100%;
+}
+
+@media ( max-width:768px){
+    .achievement{
+       margin-bottom: 50px;
+    }
+  }

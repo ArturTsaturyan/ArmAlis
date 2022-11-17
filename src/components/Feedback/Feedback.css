@@ -1,0 +1,12 @@
+.feedBack{
+    padding-top: 120px ;
+    padding-bottom: 120px;
+}
+
+@media ( max-width:768px){
+    .feedBack{
+        padding-top: 20px ;
+        padding-bottom: 20px;
+    }
+  }
+  

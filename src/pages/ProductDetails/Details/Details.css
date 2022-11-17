@@ -1,0 +1,114 @@
+.detailsTitle {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  color: #121212;
+}
+.priceDetails {
+  font-family: 'Montserrat arm';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  color: #f68d10;
+}
+.detailsSize {
+  font-family: 'Montserrat arm';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #121212;
+}
+
+.detailsText {
+  font-family: 'Montserrat arm';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 29px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.addBasket {
+  background: #f9f9f9;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%),
+    0px 1px 10px 0px rgb(0 0 0 / 12%);
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  padding: 16px 32px 16px 32px;
+  margin-top: 50px;
+  width: 60%;
+}
+.detailsTitle_mobile {
+  padding: 20px;
+  width: 48%;
+}
+.addBasket svg {
+  width: 60px !important;
+  padding-right: 10px;
+}
+@media (max-width: 1024px) {
+  .detailsTitle {
+    font-size: 20px;
+  }
+  .priceDetails {
+    font-size: 20px;
+  }
+  .detailsSize {
+    font-size: 20px;
+  }
+
+  .detailsText {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .addBasket {
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 32px 10px 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .detailsTitle {
+    font-size: 18px;
+  }
+  .priceDetails {
+    font-size: 16px;
+  }
+  .detailsSize {
+    font-size: 16px;
+  }
+
+  .detailsText {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .addBasket {
+    width: 50%;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 32px 10px 32px;
+  }
+  .detailsTitle_mobile {
+    padding: 20px;
+    width: 100%;
+  }
+  .addBasket svg {
+    width: 50px !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .addBasket {
+    width: 85%;
+  }
+}

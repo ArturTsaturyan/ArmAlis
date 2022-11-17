@@ -1,0 +1,10 @@
+.printing_content_text{
+    text-align: justify;
+}
+.printing{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.printingImage{
+    border-radius: 2%;
+}

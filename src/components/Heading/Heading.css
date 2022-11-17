@@ -1,0 +1,357 @@
+.heading {
+  display: flex;
+  margin-top: 72px;
+  justify-content: space-between;
+  /* margin-bottom: 120px; */
+  padding-left: 218px;
+  padding-right: 218px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading .Search_Login {
+  width: 40%;
+  margin-right: 24px;
+  margin-top: 24px;
+  height: 29vh;
+}
+
+.heading_title {
+  font-weight: 800;
+  font-size: 106px;
+  line-height: 121%;
+  color: #121212;
+  font-family: 'Artsakh font';
+  text-transform: uppercase;
+}
+
+.about_title {
+  font-family: 'Artsakh Font';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 88px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 181px;
+  padding-bottom: 320px;
+  text-transform: uppercase;
+}
+
+.heading_subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: #121212;
+  margin-top: 32px;
+  display: none !important;
+}
+
+.btn_see_more {
+  color: #27272c !important;
+  border-radius: 50px !important;
+  width: 32% !important;
+  text-transform: unset !important;
+  font-size: 16px !important;
+  background: #ffffff !important;
+  white-space: nowrap !important;
+  min-width: 160px !important;
+  font-weight: 600 !important;
+}
+.just_icon_ {
+  position: relative;
+  right: 5%;
+}
+.just_icon {
+  position: absolute;
+  right: -127px;
+  animation: just_icon 2s infinite linear;
+}
+.just_icon1 {
+    position: absolute;
+    left: -355px;
+  }
+
+.btns {
+  margin-top: 42px;
+  /* margin-bottom: 203px ; */
+}
+@keyframes just_icon {
+  0%{
+    margin-top: 20px;
+  }
+  50% {
+    margin-top: 40px;
+  }
+  100% {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 1730px){
+  .heading_title {
+    font-size: 79px;
+  }
+}
+@media (max-width: 1399px) {
+  .heading {
+    display: flex;
+    margin-top: 72px;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+
+  .heading_subtitle {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    margin-top: 28px;
+  }
+  .heading_title {
+    font-size: 70px;
+  }
+
+  /* .just_icon{
+    width: 60%;
+} */
+}
+
+@media (max-width: 1199px) {
+  .heading_subtitle {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 130%;
+    margin-top: 28px;
+  }
+  .heading_title {
+    font-size: 55px;
+  }
+
+  /* .just_icon {
+        width: 52%;
+        background-color: #F9F9F9;
+    } */
+  .heading {
+    display: flex;
+    margin-top: 58px;
+    justify-content: space-between;
+    margin-bottom: 0px;
+  }
+  .btn_login {
+    font-size: 16px !important;
+  }
+  .btn_register {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .heading {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+  .heading .Search_Login {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+  .Search_Login {
+    text-align: center;
+    width: 90%;
+    margin-top: unset;
+  }
+  .btns_div {
+    justify-content: center !important;
+  }
+  .just_icon_ {
+    width: 100%;
+    margin-top: 96px;
+    margin-bottom: 267px;
+  }
+  .just_icon {
+    width: 16%;
+    left: 0;
+    bottom: 0;
+    top: -50px;
+    right: -58%;
+    margin: auto;
+  }
+  .just_icon1 {
+    width: 52%;
+    left: -14%;
+    bottom: 0;
+    top: 143px;
+    right: 0;
+    margin: auto;
+
+  }
+  .heading_subtitle {
+    margin-bottom: 28px;
+  }
+  .btns {
+    margin-top: 42px;
+    margin-bottom: 90px;
+  }
+  .about_title {
+    font-size: 38px;
+  }
+  .heading_title {
+    font-size: 44px;
+  }
+}
+@media (max-width: 860px) {
+    .just_icon {
+      top: -23px;
+    }
+  }
+
+@media (max-width: 768px) {
+  .heading {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-bottom: 0px;
+  }
+  .btns {
+    margin-bottom: 70px;
+  }
+
+  .about_title {
+    font-size: 30px;
+  }
+  .heading_title {
+    font-size: 32px;
+  }
+  .heading .Search_Login {
+    height: 25vh;
+  }
+  .just_icon1 {
+
+    top: 96px;
+  }
+  .just_icon {
+    top: -72px;
+  }
+}
+@media (max-width: 690px) {
+    .just_icon {
+      top: -50px;
+    }
+  }
+@media (max-width: 576px) {
+  .heading_title {
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-weight: 300;
+  }
+  .heading_subtitle {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 130%;
+    /* color: #1D1D1D; */
+    margin-top: 5px;
+  }
+  /* .just_icon_ {
+    width: 77%;
+  } */
+  .heading .Search_Login {
+    margin-top: 20px;
+    height: 20vh;
+  }
+  .heading {
+    padding: 0 !important;
+  }
+  .just_icon {
+    top: -70px;
+  }
+}
+
+@media (max-width: 480px) {
+  .moblie_menu {
+    width: 70px !important;
+  }
+  .btns {
+    margin-bottom: 50px;
+  }
+  .cart_icon {
+    width: 40px;
+    height: 34px;
+    margin-right: unset;
+  }
+  .heading .Search_Login {
+    margin-bottom: 20px;
+    height: 16vh;
+  }
+  .heading_title {
+    font-size: 22px;
+  }
+  .heading_subtitle {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    margin-top: 5px;
+  }
+
+  .main_header {
+    height: 108px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .Search_Login {
+    width: 85%;
+  }
+  .just_icon {
+    top: -44px;
+  }
+}
+
+@media (max-width: 378px) {
+  .heading {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .heading_title {
+    font-size: 20px;
+  }
+  .heading_subtitle {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 130%;
+    margin-top: 5px;
+  }
+  .btns_div {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .btn_login {
+    width: 70% !important;
+  }
+  .btn_register {
+    margin-left: unset !important;
+    margin-top: 15px !important;
+    width: 70% !important;
+  }
+  .heading_title {
+    font-size: 22px;
+  }
+
+  .about_title {
+    font-size: 22px;
+  }
+  .just_icon {
+    top: -26px;
+  }
+}

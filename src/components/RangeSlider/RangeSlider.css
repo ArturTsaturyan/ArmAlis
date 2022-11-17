@@ -1,0 +1,16 @@
+#range span:nth-child(4){
+    left: 0px !important;
+}
+#range span:nth-child(6){
+    left: 95% !important;
+}
+@media only screen and (max-width: 1200px){
+    #range span:nth-child(6),span:nth-child(4){
+       font-size: 11px !important;
+}
+}
+@media only screen and (max-width: 768px){
+    #range span:nth-child(6),span:nth-child(4){
+       font-size: 14px !important;
+}
+}
